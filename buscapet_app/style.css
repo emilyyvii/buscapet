@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root{
+
+    ---fonte-padrao: "DM sans", sans-serif;
+    ---fonte-destaque: "Itim", cursive;
+    ---cor-fundo:#141496;
+    ---amarelo:#ffbd59;
+
+}
+
+.italico {
+    font-style: italic;
+}
+
+body{
+ font-family: var(---fonte-padrao);  
+ background-color: black; 
+}
+
+main{
+ background-color: var(---cor-fundo);
+ height:600px;
+ width:340px;
+margin-top: 100px;
+margin-left:540px;
+}
+
+.pag1{
+    background-color: white;
+}
+
+
+.localiza{
+ background-color: var(---cor-fundo);
+}
+
+.localiza h1{
+ font-size: 20px;
+ color: white;
+}
+
+
+.localiza a{
+    margin: 10px;
+    text-decoration:none;
+    color:var(---amarelo);
+   }
+   
+
+.imge{
+ margin-left: 50px;
+}
+
+.relatorio{
+ background-color: var(---amarelo);
+}
+
+.relatorio h1{
+    background-color: var(---cor-fundo);
+    padding-bottom: 14px;
+    font-size: 20px;
+    color: white;
+}
+
+.relatorio a{
+    margin: 10px;
+    text-decoration:none;
+    color:var(---amarelo);
+}
+
+.relatorio article{
+    height:70px;
+}
+
+.relatorio .bat{
+ background-color: var(---cor-fundo);
+ color:white;
+ font-size: 17px;
+ width: 190px;
+ border-radius:10px;
+ padding-left:5px;
+ margin-left: 70px;
+
+}
+
+.relatorio .atv{
+    background-color: var(---cor-fundo);
+    color:white;
+    font-size: 17px;
+    width: 140px;
+    border-radius:10px;
+    padding-left:5px;
+    margin-left: 98px;
+   }
+
+.relatorio .quadrado{
+ background-color: var(---cor-fundo);
+ width: 250px;
+ height: 160px;
+ border-radius: 10px;
+ margin-left:45px;
+}
+
+.quadrado img{
+    height: 140px;
+    width: 150px;
+    margin-left:50px;
+}
+
+.relatorio .imgcachorros{
+    margin-left: 50px;
+    margin-top:-4px;
+    height: 60px;
+    width: 260px;
+}
+
+.relatorio .cachorroes{
+  height: 60px;  
+  width:60px ;
+}
+
+
+.inicio{
+    background-color: var(---cor-fundo);
+   }
+   
+.inicio p{
+    font-size: 16px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 78px;
+    font-family: var(---fonte-padrao);
+   }
+
+.inicio img{
+    width: 300px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 17px;
+}
+
+
+.footermeus {
+    margin-top: 120px;
+    text-align: center;
+    padding: 10px;
+    background-color:white;
+    color: black;
+}
+
+
+
+.petzao{
+    background-color:white;
+}
+.petzao h1{
+    background-color: var(---cor-fundo);
+    padding-bottom: 14px;
+    font-size: 20px;
+    color: white;
+}
+
+.petzao a{
+    margin: 10px;
+    text-decoration:none;
+    color:var(---amarelo);
+}
+
+.petzao p{
+  color: var(---cor-fundo);
+  font-family: var(---fonte-destaque);
+  font-weight: bold;
+}
+
+.petzinhos{
+    display:flex;
+}
+
+
+
+
+
+
+/*livia*/
+
+
+.animal-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.option button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(---cor-fundo);
+    color: var(---amarelo);
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.fas.fa-home {
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+}
+
+.fas.fa-map-marker-alt{
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+}
+
+.fas.fa-tag{
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.fas.fa-file-alt{
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+}
+
+.fas.fa-bell{
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.fas.fa-paw{
+    font-size: 25px; 
+    color: var(---amarelo);   
+    margin-right: 5px; 
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.header img{
+    padding-top: 10px;
+    background-color: var(---amarelo);
+}
+
+.link-text {
+    color: var(---amarelo); /* Altere "green" para a cor que você quiser */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+/*liv*/
+
+.alerta {
+    background-color: var(---cor-fundo);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.alerta img {
+    width: 40px; /* Diminui o tamanho do ícone */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.alerta .info {
+    flex: 1;
+}
+.alerta h3 {
+    margin: 0;
+    font-size: 1em; /* Diminui o tamanho do texto */
+    color: var(---amarelo);
+}
+.alerta p {
+    margin: 5px 0 0;
+    font-size: 0.9em; /* Ajusta o tamanho do parágrafo */
+    color: aliceblue;
+}
+.imagem-rodape {
+    margin-top: 20px;
+    text-align: center;
+}
+.imagem-rodape img {
+    max-width: 100%; /* Mantém a imagem responsiva */
+    border-radius: 8px;
+}
+
+.imagem-rodape img {
+    width: 100px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que ela seja um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 8px; /* Mantém bordas arredondadas */
+}
+
+.alerta img {
+    width: 50px;  /* Define a largura maior da imagem */
+    height: 50px; /* Define a altura maior da imagem */
+    border-radius: 50%; /* Mantém as bordas arredondadas */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/*emi*/
+
+.inicio{
+    background-color: var(---cor-fundo);
+   }
+   
+.inicio p{
+    font-size: 16px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 78px;
+    font-family: var(---fonte-padrao);
+   }
+
+.inicio img{
+    width: 300px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 17px;
+}
+
+/*começo*/
+
+.login{
+    background-color: var(---cor-fundo);
+   }
+   
+.login p{
+    font-size: 16px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 78px;
+    font-family: var(---fonte-padrao);
+    text-align: center;
+   }
+
+.login img{
+    width: 300px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 17px;
+}
+
+.oi{
+    width: 300px;
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 17px;
+}
+
+#loginn_form{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 8px 5px 16px var(---cor-fundo);
+    animation: dark-to-light-background 0.5s ease-in-out;
+    height: 390px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+#loginn_form p{
+    margin-top: 1px;
+    font-size: 1.6vh;
+    margin-bottom: -4px;
+
+}
+
+
+#formm_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: -33px;
+    margin-bottom: -28px;
+    height: 200px;
+
+}
+ 
+#formm_header h1{
+    font-size: 25px;
+    position: relative;
+    color: var(---amarelo);
+}
+
+#social_midia{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#social_midia img{
+    width: 30px;
+    height: 30px;
+   margin-bottom: 2px;
+   margin-top: 2px;
+}
+ 
+#social_midia img:hover{
+    transform: scale(1.2);
+}
+ 
+#inputes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -19px;
+    margin-top: 10px;
+}
+
+ 
+#inpute_box label{
+    font-size: 14px;
+    color:black;
+}
+ 
+#inpute_field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px solid var(---cor-fundo);
+    cursor: text;
+    width: 220px;
+}
+
+#inpute_field input{
+    border:none;
+    width: 260px;
+    background-color: transparent; /*tira a cor do input*/
+    font-size: 18px;
+    padding: 0px 5px;
+}
+ 
+#inpute_field input:focus{
+    outline: none; /*some o focus do input*/
+}
+/*esqueci a senha*/
+ 
+#esquece_password a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(---cor-fundo);
+}
+ 
+#esquece_password a:hover{
+    color: black;
+}
+ 
+#login_butao{
+    border: none;
+    background: var(---amarelo);
+    border-radius: 20px;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    height: 55px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    margin-left: 27px;
+    width: 150px;
+}
+
+#login_butao:hover{
+    background: var(---cor-fundo);
+    color: white;
+}
+
+#login .italico{  
+    font-size: 16px;
+    color: white;
+   margin-top: 17px;
+   text-align: center;
+    font-family: var(---fonte-padrao);
+}
+
+/*login*/
+
+.today{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 8px 5px 16px var(---cor-fundo);
+    animation: dark-to-light-background 0.5s ease-in-out;
+    height: 390px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+#intro_header{
+    margin-left: 20px;
+    color: var(---amarelo);
+}
+
+.today img{
+    height: 100px;
+    width: 90px;
+    margin-left: 55px;
+    margin-top: -25px;
+}
+
+.today p{
+    text-align: left;
+    font-family: var(---fonte-padrao);
+    margin-left: 10px;
+    font-size: 2vh;
+}
+
+.today input{
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.buto{
+    margin-left: 55px;
+    margin-top: 38px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(---cor-fundo);
+    color: white;
+    border-color: var(---cor-fundo);
+
+}
+
+.buto:hover{
+    background-color: var(---amarelo);
+    border-color: var(---amarelo);
+    color: black;;
+
+}
+
+/*esqueci senha*/
+
+.yesterday{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 8px 5px 16px var(---cor-fundo);
+    animation: dark-to-light-background 0.5s ease-in-out;
+    height: 390px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+#intro_head{
+   
+    color: var(---amarelo);
+    
+}
+
+#intro_head h1{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.yesterday img{
+    height: 100px;
+    width: 90px;
+    margin-left: 55px;
+    margin-top: -25px;
+}
+
+.yesterday p{
+    text-align: left;
+    font-family: var(---fonte-padrao);
+    margin-left: 10px;
+    font-size: 2vh;
+}
+
+.yesterday input{
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.buton{
+    margin-left: 28px;
+    margin-top: 38px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(---amarelo);
+    color: black;
+    border-color: var(---amarelo);
+
+}
+
+.buton:hover{
+    background-color: var(---cor-fundo);
+    border-color: var(---cor-fundo);
+    color: white;
+}
+
+#textor{
+    background-color: var(---cor-fundo);
+    height: 100px;
+    color: white;
+    border-radius: 20px;
+}
+
+#textor p{
+   margin-left: 15px;
+}
+
+/*codigo*/
+
+.cria_conta{
+    background-color: var(---cor-fundo);
+   }
+   
+.cria_conta p{
+    font-size: 16px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 78px;
+    font-family: var(---fonte-padrao);
+    text-align: center;
+   }
+
+.cria_conta img{
+    width: 300px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 17px;
+}
+
+.oi{
+    width: 300px;
+    height: 100px;
+    margin-top: 1px;
+    margin-left: 17px;
+}
+
+#cria_form{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 8px 5px 16px var(---cor-fundo);
+    animation: dark-to-light-background 0.5s ease-in-out;
+    height: 407px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+#cria_form p{
+    margin-top: -5px;
+    font-size: 1.6vh;
+
+}
+
+
+#form_cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: -33px;
+    margin-bottom: -28px;
+    height: 250px;
+
+}
+ 
+#form_cabeca h1{
+    font-size: 25px;
+    position: relative;
+    color: var(---amarelo);
+}
+
+#rede_social{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#rede_social img{
+    width: 30px;
+    height: 30px;
+   margin-bottom: 2px;
+   margin-top: 2px;
+}
+ 
+#rede_social img:hover{
+    transform: scale(1.2);
+}
+ 
+#inputo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -19px;
+}
+
+ 
+#inputo_box label{
+    font-size: 14px;
+    color:black;
+}
+ 
+#inputo_field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    border-bottom: 1px solid var(---cor-fundo);
+    cursor: text;
+    width: 220px;
+}
+
+#inputo_field input{
+    border:none;
+    width: 260px;
+    background-color: transparent; /*tira a cor do input*/
+    font-size: 18px;
+    padding: 0px 5px;
+}
+ 
+#inputo_field input:focus{
+    outline: none; /*some o focus do input*/
+}
+/*esqueci a senha*/
+ 
+#password_forgote a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(---cor-fundo);
+}
+ 
+#password_forgote a:hover{
+    color: black;
+}
+ 
+#criar_butao{
+    border: none;
+    background: var(---amarelo);
+    border-radius: 20px;
+    color:black;
+    font-size: 15px;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+    margin-left: 27px;
+    width: 150px;
+}
+
+#criar_butao:hover{
+    background: var(---cor-fundo);
+    color: white;
+}
+
+#cria_conta .italico{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*informação de contato*/
+.information{
+    background-color: var(---cor-fundo);
+}
+
+.information a{
+
+}
+
+.informe{
+    background-color: var(---amarelo);
+}
+
+
+    

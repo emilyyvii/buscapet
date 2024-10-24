@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Comprar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="imagens/buscaapet.png" text="BuscaPet">
+ <nav>
+     <button class="sobre"><a href="index.html">SOBRE</a></button>
+     <button><a href="funcio.html">FUNCIONALIDADES</a></button>
+     <button><a href="compre.html">COMPRE AGORA</a></button>
+     <button><a href="acesse.html">ACESSE O APP</a></button>      
+ </nav>
+ </header>
+ 
+<main class="compre">
+    <section class="containermae">
+
+        <img class="imagemprincipal" src="imagens/tagb.png" alt="Imagemtag">
+
+        <article class="dados">
+            <h2 id="textocompra">TAG BUSCAPET</h2>
+            <p class="valorcompra">R$299,99</p>
+
+            <section class="dadosproduto">
+                <label for="cor">COR:</label>
+                <select id="cor">
+                    <option value="branco">Branco</option>
+                    <option value="preto">Preto</option>
+                </select>
+
+                <label for="quantidade">QTD:</label>
+                <input type="number" id="quantidade" min="1" value="1">
+            
+                <a href="compre2.html"><button class="finalizarcompra">COMPRAR</button></a>
+
+        </article>
+    </section>
+
+    <section class="opcoes">
+        <img class="img1" src="imagens/tagp.png" alt="imagem 1" onclick="changeImage(this)">
+        <img class="img1" src="imagens/medidas.png" alt="imagem 2" onclick="changeImage(this)">
+        <img class="img1" src="imagens/local.png" alt="imagem 3" onclick="changeImage(this)">
+        <img class="img1" src="imagens/qr_code.png" alt="imagem 4" onclick="changeImage(this)">
+    </section>
+    
+</main>
+
+<footer>
+    <section class="contact">
+    <img src="imagens/buscaapet.png" alt="Descrição da imagem">
+    <a href="https://www.instagram.com/"><i class="fab fa-instagram" target="_blank"></i></a>
+    <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp" target="_blank"></i></a>
+    </section>
+    <img src="imagens/pata.png" class="pata" alt="Descrição da imagem">
+</footer>
+
+</body>
+</html>
